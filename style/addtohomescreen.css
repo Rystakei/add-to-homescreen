@@ -71,8 +71,8 @@
 }
 
 .ath-android {
-	right: 1.5em;
-	top: 1.8em;
+	left: 50%;
+	margin-left: -9em;
 }
 
 /* close icon */
@@ -106,7 +106,7 @@
 .ath-mandatory .ath-container:before {
 	display: none;
 }
-
+/*
 .ath-container.ath-android:before {
 	float: left;
 	margin: -0.7em 0.5em 0 -0.6em;
@@ -118,7 +118,7 @@
 	left: 0;
 	margin: 0;
 	float: none;
-}
+}*/
 
 
 /* applied only if the application icon is shown */
@@ -196,7 +196,7 @@
 	z-index: 2147483641;
 }
 
-.ath-android:after {
+/*.ath-android:after {
 	content: '';
 	background: #eee;
 	background: -webkit-linear-gradient(-45deg, rgba(238,238,238,0) 0%,rgba(238,238,238,0) 50%,rgba(238,238,238,1) 50%,rgba(238,238,238,1) 100%);
@@ -206,7 +206,7 @@
 	top: -1.5em;
 	right: 0;
 }
-
+*/
 .ath-application-icon {
 	position: relative;
 	padding: 0;
