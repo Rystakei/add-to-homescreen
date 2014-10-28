@@ -8,11 +8,11 @@
   "description": "Add to homescreen call out for iOS and Android",
   "main": [
     "src/addtohomescreen.min.js",
-    "style/addtohomescreen.css"
+    "style/addtohomescreen.css",
+    "imgs"
   ],
   "ignore": [
     "demos",
-    "imgs",
     "README.md"
   ],
   "keywords": [
